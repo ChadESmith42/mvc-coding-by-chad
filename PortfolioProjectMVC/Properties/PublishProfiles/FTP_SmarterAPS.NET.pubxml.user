@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABiGnYXv/9k6ejewKcPIbdAAAAAACAAAAAAAQZgAAAAEAACAAAAB9WZTamPUjtzXZzpr6pWQpoBqmvPGzekS71dAD6sUwLwAAAAAOgAAAAAIAACAAAABnweazFlTA6BgmFyyXnYxp9E1qzqUczWjjiFc3T6py1iAAAADBiHKmceiRBEckq0MYiZ3F4mRsJK3rMfCI1b3m1qbbOkAAAACHBeddSiHnDaKOMezxXGqB8KuJwifafhM7/kxgrZqU1XjHaCPtc7A4eEI1pIe9CA1GpspywS7JChT6XKz2kjOB</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.site4now.net/PersonalSite</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>06/15/2018 09:45:23</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>06/15/2018 09:45:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>06/15/2018 09:45:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>06/15/2018 09:45:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>06/15/2018 09:45:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>06/15/2018 09:45:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>06/15/2018 09:45:23</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/15/2018 09:45:24</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>06/15/2018 09:45:27</publishTime>
+    </File>
+    <File Include="bin/PortfolioProjectMVC.dll">
+      <publishTime>07/09/2018 14:42:49</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/15/2018 09:45:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>06/15/2018 09:45:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>06/15/2018 09:45:23</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>06/15/2018 09:45:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>06/15/2018 09:45:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>06/15/2018 09:45:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>06/15/2018 09:45:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>06/15/2018 09:45:22</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>06/15/2018 09:45:23</publishTime>
+    </File>
+    <File Include="chart.html">
+      <publishTime>06/20/2018 08:19:46</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.css">
+      <publishTime>06/15/2018 22:11:51</publishTime>
+    </File>
+    <File Include="Content/css/leaflet.css">
+      <publishTime>06/20/2018 09:46:15</publishTime>
+    </File>
+    <File Include="Content/css/main.css">
+      <publishTime>08/07/2018 22:00:27</publishTime>
+    </File>
+    <File Include="Content/css/map.css">
+      <publishTime>06/18/2018 12:26:23</publishTime>
+    </File>
+    <File Include="Content/css/snake.css">
+      <publishTime>07/08/2018 22:01:50</publishTime>
+    </File>
+    <File Include="Content/css/storymap.css">
+      <publishTime>06/26/2018 08:38:33</publishTime>
+    </File>
+    <File Include="Content/images/Andrew.jpeg">
+      <publishTime>07/12/2018 17:08:36</publishTime>
+    </File>
+    <File Include="Content/images/army emblem.png">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/Army_National_Guard_logo.png">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/asYouWish.png">
+      <publishTime>06/30/2018 12:26:14</publishTime>
+    </File>
+    <File Include="Content/images/aywig_code.PNG">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/aywig_mobile.png">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/badge-dpd.png">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/BAIR Logo.jpg">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/blackVeatch.jpg">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/blog01.jpg">
+      <publishTime>06/15/2018 22:10:48</publishTime>
+    </File>
+    <File Include="Content/images/cbcLogoWhite.png">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/centriq-training-squarelogo-1514989930117.png">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/cgi logo.jpg">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/chad_avatar.jpeg">
+      <publishTime>07/27/2018 12:34:54</publishTime>
+    </File>
+    <File Include="Content/images/chad_avatar.jpg">
+      <publishTime>07/27/2018 12:34:54</publishTime>
+    </File>
+    <File Include="Content/images/Courage Services Logo.png">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/dangerousbuildings.PNG">
+      <publishTime>07/26/2018 21:31:36</publishTime>
+    </File>
+    <File Include="Content/images/default_avatar.png">
+      <publishTime>07/02/2018 09:32:37</publishTime>
+    </File>
+    <File Include="Content/images/dustin.jpg">
+      <publishTime>07/03/2018 09:55:08</publishTime>
+    </File>
+    <File Include="Content/images/Esri-Logo-267x300-2.png">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/favicon.ico">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/Kohlsen.jpg">
+      <publishTime>07/10/2018 08:28:23</publishTime>
+    </File>
+    <File Include="Content/images/loader.gif">
+      <publishTime>06/15/2018 22:10:48</publishTime>
+    </File>
+    <File Include="Content/images/michelle.jpg">
+      <publishTime>07/02/2018 12:34:36</publishTime>
+    </File>
+    <File Include="Content/images/paris.jpeg">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/preston.jpg">
+      <publishTime>07/02/2018 12:01:27</publishTime>
+    </File>
+    <File Include="Content/images/Responsive-web-design-devices.jpg">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/resume_map.PNG">
+      <publishTime>07/19/2018 15:18:14</publishTime>
+    </File>
+    <File Include="Content/images/Snake.PNG">
+      <publishTime>07/09/2018 13:54:26</publishTime>
+    </File>
+    <File Include="Content/images/steven.jpg">
+      <publishTime>07/02/2018 12:02:16</publishTime>
+    </File>
+    <File Include="Content/images/TaskOrganizer.PNG">
+      <publishTime>06/30/2018 16:57:43</publishTime>
+    </File>
+    <File Include="Content/images/tyler.png">
+      <publishTime>07/02/2018 12:30:39</publishTime>
+    </File>
+    <File Include="Content/images/unt logo.png">
+      <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/user.png">
+      <publishTime>06/15/2018 22:10:48</publishTime>
+    </File>
+    <File Include="Content/images/zoom.png">
+      <publishTime>06/15/2018 22:10:48</publishTime>
+    </File>
+    <File Include="Content/SalesMock.csv">
+      <publishTime>06/19/2018 13:22:40</publishTime>
+    </File>
+    <File Include="Content/scripts/asyouwish.js">
+      <publishTime>06/16/2018 14:36:53</publishTime>
+    </File>
+    <File Include="Content/scripts/bootstrap.min.js">
+      <publishTime>06/15/2018 22:12:11</publishTime>
+    </File>
+    <File Include="Content/scripts/cohort.js">
+      <publishTime>07/10/2018 08:33:09</publishTime>
+    </File>
+    <File Include="Content/scripts/crimeparse.js">
+      <publishTime>06/25/2018 20:51:40</publishTime>
+    </File>
+    <File Include="Content/scripts/fountains.js">
+      <publishTime>07/04/2018 15:17:55</publishTime>
+    </File>
+    <File Include="Content/scripts/hover.zoom.conf.js">
+      <publishTime>06/15/2018 22:12:11</publishTime>
+    </File>
+    <File Include="Content/scripts/hover.zoom.js">
+      <publishTime>06/15/2018 22:12:11</publishTime>
+    </File>
+    <File Include="Content/scripts/snake.js">
+      <publishTime>07/09/2018 14:08:51</publishTime>
+    </File>
+    <File Include="Content/scripts/storymap.js">
+      <publishTime>06/26/2018 08:46:05</publishTime>
+    </File>
+    <File Include="Controllers/HomeController.cs">
+      <publishTime>07/09/2018 13:02:18</publishTime>
+    </File>
+    <File Include="DangerousBuildings/dangerousbuildings.js">
+      <publishTime>07/26/2018 21:06:17</publishTime>
+    </File>
+    <File Include="DangerousBuildings/index.html">
+      <publishTime>07/27/2018 12:17:03</publishTime>
+    </File>
+    <File Include="DangerousBuildings/site.css">
+      <publishTime>07/27/2018 12:14:30</publishTime>
+    </File>
+    <File Include="esrimap.html">
+      <publishTime>06/26/2018 08:40:30</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>06/15/2018 09:45:18</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/15/2018 09:45:18</publishTime>
+    </File>
+    <File Include="mapexample.html">
+      <publishTime>07/23/2018 17:31:31</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/15/2018 09:45:29</publishTime>
+    </File>
+    <File Include="popup.html">
+      <publishTime>06/20/2018 10:14:08</publishTime>
+    </File>
+    <File Include="snake.html">
+      <publishTime>07/08/2018 22:17:29</publishTime>
+    </File>
+    <File Include="SPA/army emblem.png">
+      <publishTime>07/19/2018 11:53:43</publishTime>
+    </File>
+    <File Include="SPA/Army_National_Guard_logo.png">
+      <publishTime>07/19/2018 11:53:43</publishTime>
+    </File>
+    <File Include="SPA/avatar_chad.jpeg">
+      <publishTime>06/26/2018 12:21:29</publishTime>
+    </File>
+    <File Include="SPA/badge-dpd.png">
+      <publishTime>07/19/2018 11:53:43</publishTime>
+    </File>
+    <File Include="SPA/BAIR Logo.jpg">
+      <publishTime>07/19/2018 11:53:43</publishTime>
+    </File>
+    <File Include="SPA/blackVeatch.jpg">
+      <publishTime>07/19/2018 11:53:43</publishTime>
+    </File>
+    <File Include="SPA/centriq-training-squarelogo-1514989930117.png">
+      <publishTime>07/19/2018 11:53:43</publishTime>
+    </File>
+    <File Include="SPA/cgi logo.jpg">
+      <publishTime>07/19/2018 11:53:43</publishTime>
+    </File>
+    <File Include="SPA/colorado.jpg">
+      <publishTime>06/29/2018 10:59:47</publishTime>
+    </File>
+    <File Include="SPA/Courage Services Logo.png">
+      <publishTime>07/19/2018 11:53:43</publishTime>
+    </File>
+    <File Include="SPA/Esri-Logo-267x300-2.png">
+      <publishTime>07/19/2018 11:53:43</publishTime>
+    </File>
+    <File Include="SPA/favicon.ico">
+      <publishTime>07/25/2018 10:30:07</publishTime>
+    </File>
+    <File Include="SPA/index.html">
+      <publishTime>07/25/2018 10:22:52</publishTime>
+    </File>
+    <File Include="SPA/kabul.jpg">
+      <publishTime>06/29/2018 10:46:50</publishTime>
+    </File>
+    <File Include="SPA/kosovo.jpg">
+      <publishTime>06/29/2018 10:46:50</publishTime>
+    </File>
+    <File Include="SPA/kuwaitcity.jpeg">
+      <publishTime>06/29/2018 10:46:50</publishTime>
+    </File>
+    <File Include="SPA/paris.jpeg">
+      <publishTime>06/26/2018 13:26:55</publishTime>
+    </File>
+    <File Include="SPA/police.jpg">
+      <publishTime>07/19/2018 11:51:45</publishTime>
+    </File>
+    <File Include="SPA/storymap.js">
+      <publishTime>06/27/2018 07:54:56</publishTime>
+    </File>
+    <File Include="SPA/storymapResume.html">
+      <publishTime>07/19/2018 12:30:16</publishTime>
+    </File>
+    <File Include="SPA/style.css">
+      <publishTime>07/19/2018 11:33:46</publishTime>
+    </File>
+    <File Include="SPA/unt logo.png">
+      <publishTime>07/19/2018 11:53:43</publishTime>
+    </File>
+    <File Include="Views/Account/ConfirmEmail.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginFailure.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPassword.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPasswordConfirmation.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPassword.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPasswordConfirmation.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Account/SendCode.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Account/VerifyCode.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>07/02/2018 13:11:59</publishTime>
+    </File>
+    <File Include="Views/Home/AsYouWish.cshtml">
+      <publishTime>06/30/2018 11:27:50</publishTime>
+    </File>
+    <File Include="Views/Home/Cohort.cshtml">
+      <publishTime>07/02/2018 11:41:28</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>07/27/2018 12:48:03</publishTime>
+    </File>
+    <File Include="Views/Home/ContactConfirm.cshtml">
+      <publishTime>07/02/2018 13:08:33</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>07/09/2018 12:59:47</publishTime>
+    </File>
+    <File Include="Views/Home/Snake.cshtml">
+      <publishTime>07/09/2018 13:53:02</publishTime>
+    </File>
+    <File Include="Views/Home/View.cshtml">
+      <publishTime>06/16/2018 13:21:00</publishTime>
+    </File>
+    <File Include="Views/Home/Work.cshtml">
+      <publishTime>07/27/2018 12:12:07</publishTime>
+    </File>
+    <File Include="Views/Manage/AddPhoneNumber.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Manage/ChangePassword.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Manage/Index.cshtml">
+      <publishTime>06/30/2018 11:31:00</publishTime>
+    </File>
+    <File Include="Views/Manage/ManageLogins.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Manage/SetPassword.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Manage/VerifyPhoneNumber.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Shared/Lockout.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>08/07/2018 22:00:42</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>06/15/2018 09:45:18</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>06/15/2018 09:45:18</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/30/2018 11:40:12</publishTime>
+    </File>
+    <File Include="_Archive/about.html">
+      <publishTime>06/15/2018 22:10:28</publishTime>
+    </File>
+    <File Include="_Archive/blog.html">
+      <publishTime>06/15/2018 22:10:28</publishTime>
+    </File>
+    <File Include="_Archive/blog01.html">
+      <publishTime>06/15/2018 22:10:28</publishTime>
+    </File>
+    <File Include="_Archive/bootstrap.css">
+      <publishTime>06/15/2018 22:11:30</publishTime>
+    </File>
+    <File Include="_Archive/bootstrap.min.js">
+      <publishTime>06/15/2018 22:12:22</publishTime>
+    </File>
+    <File Include="_Archive/contact.html">
+      <publishTime>06/15/2018 22:10:28</publishTime>
+    </File>
+    <File Include="_Archive/hover.zoom.conf.js">
+      <publishTime>06/15/2018 22:12:22</publishTime>
+    </File>
+    <File Include="_Archive/hover.zoom.js">
+      <publishTime>06/15/2018 22:12:22</publishTime>
+    </File>
+    <File Include="_Archive/index.html">
+      <publishTime>06/15/2018 22:15:54</publishTime>
+    </File>
+    <File Include="_Archive/main.css">
+      <publishTime>06/15/2018 22:11:30</publishTime>
+    </File>
+    <File Include="_Archive/work.html">
+      <publishTime>06/15/2018 22:10:28</publishTime>
+    </File>
+    <File Include="_Archive/work01.html">
+      <publishTime>06/15/2018 22:10:28</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

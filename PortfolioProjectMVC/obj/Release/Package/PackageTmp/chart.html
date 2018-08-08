@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Sample</title>
+    <meta charset="utf-8" />
+
+</head>
+<body>
+
+
+
+    <script src="https://fastcdn.org/D3.js/3.5.6/d3.min.js"></script>
+    <script type="text/javascript">
+        d3.select("body")
+            .append("p")
+            .text("Weekly Sales Comparison");
+        var rowConverter = function (d) {
+            return {
+                Team: parseInt(d.Team),
+                Calls: parseInt(d.Calls),
+                Email: parseInt(d.Email),
+                OnSite: parseINT(d.OnSite),
+                VirtualMeet: parseInt(d.VirtualMeet),
+                Sales: parseInt(d.Sales),
+                AddOns: parseInt(d.AddOns),
+                Week: parseInt(d.Week)
+            }
+        }
+        var dataset;
+
+        d3.csv("/Content/SalesMock.csv", rowConverter, function (data) {
+            dataset = data;
+            generateVis();
+            hideLoadingMsg();
+            console.log(data)
+        });
+
+
+
+    </script>
+</body>
+</html>

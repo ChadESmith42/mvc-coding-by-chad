@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Snake";
+}
+
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<style>
+    
+    #gameCanvas {
+            position: absolute;
+            margin-top: 100px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #score {
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Press Start 2P', serif;
+        }
+
+        .gameArea{
+            min-height:310px;
+        }
+
+        h1, h2{
+            font-family: 'Press Start 2P';
+        }
+
+        btn {
+            font-family: 'Press Start 2P';
+        }
+</style>
+
+<div class="container">
+    
+    <h1>@ViewBag.Title</h1>
+    
+    <div class="col-md-12 gameArea">
+        <div class="col-md-6">
+            <div>
+                
+                <h2>Score:</h2>
+                <span id="score">000</span>
+            </div>
+            <input type="button" class="btn btn-danger" value="New Game" onclick="location.reload()" />
+        </div>
+        <div class="col-md-6">
+            <canvas id="gameCanvas" width="300" height="300"></canvas>
+        </div>
+    </div>
+     
+</div>
+
+<script src="~/Content/scripts/snake.js"></script>

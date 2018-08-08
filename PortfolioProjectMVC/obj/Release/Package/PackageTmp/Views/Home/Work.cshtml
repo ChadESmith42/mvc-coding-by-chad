@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "Work";
+}
+
+
+<div class="container pt">
+    <div class="row mt">
+        <div class="col-md-12">
+            <h1>@ViewBag.Title</h1>
+            <p class="lead">@ViewBag.Message</p>
+        </div>
+    </div>
+    <div class="row mt centered">
+        <div class="card col-md-3">
+            <img class="img-thumbnail" src="~/Content/images/asYouWish.png" alt="Card image">
+            <div class="card-body">
+                <h3 class="text-left">As You Wish Ipsum Generator</h3>
+                <p class="text-left">While marriage may not be what brings us together today, you will certainly enjoy my ipsum generator based on the 1987 cult classic, The Princess Bride.</p>
+                <a href="@Url.Action("AsYouWish","Home") " class="btn btn-primary">Learn more &raquo;</a>
+            </div>
+        </div>
+        <div class="card col-md-3">
+            <img class="img-thumbnail" src="~/Content/images/resume_map.PNG" alt="Card image">
+            <div class="card-body">
+                <h3 class="text-left">Story-Map Resume</h3>
+                <p class="text-left">My background is in Geographic Information Systems, or GIS. Prior to beginning my journey into Web Development, I created tons of geospatial products. The best ones don't just display data. They <strong>tell stories</strong>. So here's my attempt to use some open-source web-mapping components to create a story-map and tell my story.</p>
+                <a href="http://codingbychad.com/SPA/" class="btn btn-primary">Learn more &raquo;</a>
+            </div>
+        </div>
+        <div class="card col-md-3">
+            <img class="img-thumbnail" src="~/Content/images/TaskOrganizer.PNG" alt="Card image">
+            <div class="card-body">
+                <h3 class="text-left">Task Organizer</h3>
+                <p class="text-left">** PENDING ** This is a simple Task List Application. It stores your tasks in a list and allows you to update the status. Application features include: sortable lists by any column, custom status names, and searchable lists. Authentication will be incorporated into the task lists to keep your lists private.</p>
+                <a href="@Url.Action("Index","Home") " class="btn btn-warning">Coming Soon!</a>
+            </div>
+        </div>
+        <div class="card col-md-3">
+            <img class="img-thumbnail" src="~/Content/images/Snake.PNG" alt="Card image">
+            <div class="card-body">
+                <h3 class="text-left">Snake Game</h3>
+                <p class="text-left">If you like Old School Games, you'll love this. I built a Snake Game using an online tutorial (<a href="https://medium.freecodecamp.org/think-like-a-programmer-how-to-build-snake-using-only-javascript-html-and-css-7b1479c3339e">here</a>). The game uses HTML5, CSS3, and JavaScript. I modified the tutorial to 1) add a "New Game" button, 2) split the JavaScript from the HTML, and 3) use "WASD" instead of arrows to avoid page scrolling issues. </p>
+                <a href="@Url.Action("Snake","Home") " class="btn btn-primary">Learn more &raquo;</a>
+            </div>
+        </div>
+    </div><!-- /row -->
+    <div class="row mt centered">
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4">
+            
+        </div>
+        <div class="col-md-4">
+            
+        </div>
+    </div><!-- /row -->
+</div><!-- /container -->

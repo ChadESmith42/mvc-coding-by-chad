@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Full-Stack Web Developer</h1>
+    <p class="lead">Using industry standard practices, I build ASP.NET websites using C#, HTML 5, CSS 3, BootStrap, JavaScript, jQuery, SQL databases, and Angular.</p>
+    <p><input type="button" class="btn btn-primary" value="Learn more &raquo;" onclick="location.href='@Url.Action("Work", "Home")'" /></p>
+</div>
+
+<div class="row margin-slight-left">
+    <div class="col-md-4">
+        <h2>About</h2>
+        <p>
+            With over 10 years in Geographic Information Systems, I realized I was missing the front-end of the GIS Full-Stack: web development. I began the <a href="https://www.centriq.com/">Centriq Career Training Program</a> to close that gap. In the process, I discovered I enjoy coding and developing much more than I anticipated.
+        </p>
+        <p><input type="button" class="btn btn-primary" value="Learn more &raquo;" onclick="location.href='@Url.Action("About", "Home")'" /></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Fun Projects</h2>
+        <p>I like to use my development skills to make fun side projects. How better to practice than by expressing your personality and likes at the same time?</p>
+        <p><input type="button" class="btn btn-primary" value="Learn more &raquo;" onclick="location.href='@Url.Action("Work", "Home")'" /></p>
+    </div>
+    <div class="col-md-4">
+        <h2>My Cohort of Developers</h2>
+        <p>No one develops in a vacuum. These are the great people who I have worked with and made me a better developer.</p>
+        <p><input type="button" class="btn btn-primary" value="Learn more &raquo;" onclick="location.href='@Url.Action("Cohort", "Home")'" /></p>
+    </div>
+</div>
