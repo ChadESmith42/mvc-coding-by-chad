@@ -6,18 +6,33 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABiGnYXv/9k6ejewKcPIbdAAAAAACAAAAAAAQZgAAAAEAACAAAAB9WZTamPUjtzXZzpr6pWQpoBqmvPGzekS71dAD6sUwLwAAAAAOgAAAAAIAACAAAABnweazFlTA6BgmFyyXnYxp9E1qzqUczWjjiFc3T6py1iAAAADBiHKmceiRBEckq0MYiZ3F4mRsJK3rMfCI1b3m1qbbOkAAAACHBeddSiHnDaKOMezxXGqB8KuJwifafhM7/kxgrZqU1XjHaCPtc7A4eEI1pIe9CA1GpspywS7JChT6XKz2kjOB</EncryptedPassword>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMO0oqJGXJUK8avoofOoyEAAAAAACAAAAAAAQZgAAAAEAACAAAAD7kBRF43uVNwk8QjnKstxsxH2SYLxbapnGxP/RtILMzQAAAAAOgAAAAAIAACAAAADtWPkGEhL8LiP4stgkRrnOr3NyPt9sZ+kPcpaWfUq9SiAAAACunkIElGsJXjmFdDYyeuD0dxSvJEbyx+d2Fmu7CEI5gEAAAADnkl4ohuKN4fJLhNhLkMul7zweMFeAM4hCbHc8KWMvSKLdiIvY4EXV+eNY7SH63F6p+ifyPQ2pifXwmhYh7AKE</EncryptedPassword>
     <_PublishTargetUrl>ftp://ftp.site4now.net/PersonalSite</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>06/15/2018 09:45:23</publishTime>
     </File>
+    <File Include="bin/Common.Maps.dll">
+      <publishTime>07/20/2018 08:17:40</publishTime>
+    </File>
+    <File Include="bin/Common.Net.REST.dll">
+      <publishTime>07/20/2018 08:17:44</publishTime>
+    </File>
+    <File Include="bin/Common.Net.REST.Mapbox.dll">
+      <publishTime>07/20/2018 08:17:45</publishTime>
+    </File>
+    <File Include="bin/Common.Runtime.Serialization.dll">
+      <publishTime>07/20/2018 08:17:41</publishTime>
+    </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>06/15/2018 09:45:25</publishTime>
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
       <publishTime>06/15/2018 09:45:25</publishTime>
+    </File>
+    <File Include="bin/JsonToSql.dll">
+      <publishTime>07/20/2018 08:14:32</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
       <publishTime>06/15/2018 09:45:27</publishTime>
@@ -62,13 +77,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/15/2018 09:45:23</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>06/15/2018 09:45:24</publishTime>
+      <publishTime>07/20/2018 08:17:43</publishTime>
     </File>
     <File Include="bin/Owin.dll">
       <publishTime>06/15/2018 09:45:27</publishTime>
     </File>
     <File Include="bin/PortfolioProjectMVC.dll">
-      <publishTime>07/09/2018 14:42:49</publishTime>
+      <publishTime>08/23/2018 11:46:34</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>06/15/2018 09:45:28</publishTime>
@@ -132,6 +147,30 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="chart.html">
       <publishTime>06/20/2018 08:19:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>07/20/2018 08:15:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>07/20/2018 08:15:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>07/20/2018 08:15:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>07/20/2018 08:15:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>07/20/2018 08:15:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>07/20/2018 08:15:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>07/20/2018 08:15:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>07/20/2018 08:15:24</publishTime>
     </File>
     <File Include="Content/css/bootstrap.css">
       <publishTime>06/15/2018 22:11:51</publishTime>
@@ -214,6 +253,81 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/favicon.ico">
       <publishTime>06/16/2018 11:59:45</publishTime>
     </File>
+    <File Include="Content/images/favicons/android-icon-144x144.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/android-icon-192x192.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/android-icon-36x36.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/android-icon-48x48.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/android-icon-72x72.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/android-icon-96x96.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/apple-icon-114x114.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/apple-icon-120x120.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/apple-icon-144x144.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/apple-icon-152x152.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/apple-icon-180x180.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/apple-icon-57x57.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/apple-icon-60x60.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/apple-icon-72x72.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/apple-icon-76x76.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/apple-icon-precomposed.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/apple-icon.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/favicon-16x16.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/favicon-32x32.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/favicon-96x96.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/favicon.ico">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/ms-icon-144x144.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/ms-icon-150x150.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/ms-icon-310x310.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
+    <File Include="Content/images/favicons/ms-icon-70x70.png">
+      <publishTime>07/19/2018 11:30:04</publishTime>
+    </File>
     <File Include="Content/images/Kohlsen.jpg">
       <publishTime>07/10/2018 08:28:23</publishTime>
     </File>
@@ -225,6 +339,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/paris.jpeg">
       <publishTime>06/16/2018 11:59:45</publishTime>
+    </File>
+    <File Include="Content/images/police.jpg">
+      <publishTime>07/19/2018 11:47:34</publishTime>
     </File>
     <File Include="Content/images/preston.jpg">
       <publishTime>07/02/2018 12:01:27</publishTime>
@@ -266,7 +383,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/15/2018 22:12:11</publishTime>
     </File>
     <File Include="Content/scripts/cohort.js">
-      <publishTime>07/10/2018 08:33:09</publishTime>
+      <publishTime>07/12/2018 17:14:11</publishTime>
     </File>
     <File Include="Content/scripts/crimeparse.js">
       <publishTime>06/25/2018 20:51:40</publishTime>
@@ -280,6 +397,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/scripts/hover.zoom.js">
       <publishTime>06/15/2018 22:12:11</publishTime>
     </File>
+    <File Include="Content/scripts/jsonToCSV.js">
+      <publishTime>07/20/2018 08:36:00</publishTime>
+    </File>
+    <File Include="Content/scripts/KCMOaddresses.json">
+      <publishTime>07/20/2018 08:12:20</publishTime>
+    </File>
+    <File Include="Content/scripts/literary.js">
+      <publishTime>08/06/2018 22:22:50</publishTime>
+    </File>
     <File Include="Content/scripts/snake.js">
       <publishTime>07/09/2018 14:08:51</publishTime>
     </File>
@@ -290,13 +416,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/09/2018 13:02:18</publishTime>
     </File>
     <File Include="DangerousBuildings/dangerousbuildings.js">
-      <publishTime>07/26/2018 21:06:17</publishTime>
+      <publishTime>08/13/2018 08:17:30</publishTime>
     </File>
     <File Include="DangerousBuildings/index.html">
-      <publishTime>07/27/2018 12:17:03</publishTime>
+      <publishTime>08/12/2018 13:14:35</publishTime>
     </File>
     <File Include="DangerousBuildings/site.css">
       <publishTime>07/27/2018 12:14:30</publishTime>
+    </File>
+    <File Include="error.html">
+      <publishTime>07/17/2018 12:40:22</publishTime>
     </File>
     <File Include="esrimap.html">
       <publishTime>06/26/2018 08:40:30</publishTime>
@@ -304,17 +433,44 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="favicon.ico">
       <publishTime>06/15/2018 09:45:18</publishTime>
     </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/20/2018 08:15:24</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/20/2018 08:15:24</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/20/2018 08:15:24</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/20/2018 08:15:24</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/20/2018 08:15:24</publishTime>
+    </File>
     <File Include="Global.asax">
       <publishTime>06/15/2018 09:45:18</publishTime>
     </File>
+    <File Include="literary.css">
+      <publishTime>08/06/2018 21:21:27</publishTime>
+    </File>
+    <File Include="literary.html">
+      <publishTime>08/06/2018 15:13:18</publishTime>
+    </File>
     <File Include="mapexample.html">
-      <publishTime>07/23/2018 17:31:31</publishTime>
+      <publishTime>08/16/2018 14:36:40</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>06/15/2018 09:45:29</publishTime>
+      <publishTime>07/20/2018 08:17:46</publishTime>
     </File>
     <File Include="popup.html">
       <publishTime>06/20/2018 10:14:08</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>07/20/2018 08:15:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>07/20/2018 08:15:24</publishTime>
     </File>
     <File Include="snake.html">
       <publishTime>07/08/2018 22:17:29</publishTime>
@@ -356,7 +512,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/25/2018 10:30:07</publishTime>
     </File>
     <File Include="SPA/index.html">
-      <publishTime>07/25/2018 10:22:52</publishTime>
+      <publishTime>07/25/2018 22:04:37</publishTime>
     </File>
     <File Include="SPA/kabul.jpg">
       <publishTime>06/29/2018 10:46:50</publishTime>
@@ -380,10 +536,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/19/2018 12:30:16</publishTime>
     </File>
     <File Include="SPA/style.css">
-      <publishTime>07/19/2018 11:33:46</publishTime>
+      <publishTime>07/24/2018 20:34:51</publishTime>
     </File>
     <File Include="SPA/unt logo.png">
       <publishTime>07/19/2018 11:53:43</publishTime>
+    </File>
+    <File Include="SPA/v2_index.html">
+      <publishTime>07/19/2018 12:31:31</publishTime>
+    </File>
+    <File Include="SPA/_index.html">
+      <publishTime>06/30/2018 14:55:52</publishTime>
     </File>
     <File Include="Views/Account/ConfirmEmail.cshtml">
       <publishTime>06/15/2018 09:45:25</publishTime>
@@ -434,19 +596,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/27/2018 12:48:03</publishTime>
     </File>
     <File Include="Views/Home/ContactConfirm.cshtml">
-      <publishTime>07/02/2018 13:08:33</publishTime>
+      <publishTime>08/20/2018 16:07:37</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
       <publishTime>07/09/2018 12:59:47</publishTime>
     </File>
     <File Include="Views/Home/Snake.cshtml">
-      <publishTime>07/09/2018 13:53:02</publishTime>
+      <publishTime>07/11/2018 08:43:31</publishTime>
     </File>
     <File Include="Views/Home/View.cshtml">
       <publishTime>06/16/2018 13:21:00</publishTime>
     </File>
     <File Include="Views/Home/Work.cshtml">
-      <publishTime>07/27/2018 12:12:07</publishTime>
+      <publishTime>08/23/2018 11:56:13</publishTime>
     </File>
     <File Include="Views/Manage/AddPhoneNumber.cshtml">
       <publishTime>06/15/2018 09:45:25</publishTime>
@@ -485,7 +647,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/15/2018 09:45:18</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/30/2018 11:40:12</publishTime>
+      <publishTime>08/23/2018 11:46:43</publishTime>
+    </File>
+    <File Include="Web.Release.config">
+      <publishTime>08/23/2018 12:00:01</publishTime>
     </File>
     <File Include="_Archive/about.html">
       <publishTime>06/15/2018 22:10:28</publishTime>

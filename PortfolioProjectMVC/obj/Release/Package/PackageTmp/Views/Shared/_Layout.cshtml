@@ -6,19 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Coding By Chad, personal website for Chad Smith">
     <meta name="author" content="Chad Smith">
-    <link rel="shortcut icon" href="~/favicon.ico" />
-    <title>@ViewBag.Title | Coding By Chad </title>
+    <link rel="icon" type="image/png" href="/Content/images/favicons/favicon.ico">
+    <title>@ViewBag.Title | Coding By Ch<i class="fa fa-user" aria-hidden="true"></i>d </title>
     <!-- Bootstrap core CSS -->
     <link href="~/Content/css/bootstrap.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="~/Content/css/main.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="~/Content/scripts/hover.zoom.js"></script>
     <script src="~/Content/scripts/hover.zoom.conf.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122057456-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-122057456-1');
+    </script>
+
 </head>
 <body>
     <!-- Static navbar -->
@@ -28,7 +38,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <i class="fa  fa-2x fa-bars" aria-hidden="true"></i>
                 </button>
-                <a class="navbar-brand" @Html.ActionLink("Coding By Chad","Index","Home")</a>
+                <a class="navbar-brand" href="@Url.Action("Index","Home")">C<i class="fa fa-globe" aria-hidden="true"></i>ding by Ch<i class="fa fa-user" aria-hidden="true"></i>d</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -36,12 +46,13 @@
                     <li><a href="@Url.Action("About","Home")"><i class="fa fa-2x fa-info-circle" title="About"></i>&nbsp;About</a></li>
                     <li><a href="@Url.Action("Work","Home")"><i class="fa fa-2x fa-wrench" title="Work"></i>&nbsp;Work</a></li>
                     <li><a href="@Url.Action("Contact","Home")"><i class="fa fa-2x fa-envelope" title="Contact"></i>&nbsp;Contact</a></li>
-                    <li><a href="https://www.linkedin.com/in/chadesmith/"><i class="fa fa-2x fa-linkedin-square" title="LinkedIn"></i></a></li>
-                    <li><a href="http://twitter.com/codingbychad/"><i class="fa fa-2x fa-twitter-square" title="Twitter"></i></a></li>
-                    <li><a href="https://github.com/ChadESmith42"><i class="fa fa-2x fa-github-square" title="GitHub"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/chadesmith/" target="_blank"><i class="fa fa-2x fa-linkedin" title="LinkedIn"></i></a></li>
+                    <li><a href="http://twitter.com/codingbychad/" target="_blank"><i class="fa fa-2x fa-twitter" title="Twitter"></i></a></li>
+                    <li><a href="https://github.com/ChadESmith42" target="_blank"><i class="fa fa-2x fa-github" title="GitHub"></i></a></li>
+                    <li><a href="https://codepen.io/chadesmith42/" target="_blank"><i class="fa fa-2x fa-codepen" title="CodePen"></i></a></li>
                 </ul>
             </div><!--/.nav-collapse -->
-            
+
         </div>
     </div>
     <!-- +++++ Welcome Section +++++ -->
@@ -63,23 +74,24 @@
                 <div class="col-lg-4">
                     <h4>My Links &nbsp;<i class="fa fa-external-link-square" title="External Links / Opens New Tab"></i></h4>
                     <p>
-                        <a href="https://www.linkedin.com/in/chadesmith/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;LinkedIn</a><br />
-                        <a href="https://twitter.com/codingbychad" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;Twitter</a><br />
-                        <a href="https://github.com/ChadESmith42" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i>&nbsp;GitHub</a>
+                        <a href="https://www.linkedin.com/in/chadesmith/" target="_blank"><i class="fa fa-linkedin" title="LinkedIn"></i>&nbsp;LinkedIn</a><br />
+                        <a href="https://twitter.com/codingbychad" target="_blank"><i class="fa fa-twitter" title="Twitter"></i>&nbsp;Twitter</a><br />
+                        <a href="https://github.com/ChadESmith42" target="_blank"><i class="fa fa-github" title="GitHub"></i>&nbsp;GitHub</a><br />
+                        <a href="https://codepen.io/chadesmith42/" target="_blank"><i class="fa fa-codepen" title="CodePen">&nbsp;CodePen</i></a><br />
                     </p>
                 </div><!-- /col-lg-4 -->
 
                 <div class="col-lg-4">
                     <h4>About Me</h4>
-                     <p><img src="~/Content/images/chad_avatar.jpeg" class="avatar" />I enjoy reading Sci-Fi, playing the piano, and learning new things.</p>
+                    <p><img src="~/Content/images/chad_avatar.jpeg" class="avatar" />I enjoy reading Sci-Fi, playing the piano, and learning new things.</p>
                 </div><!-- /col-lg-4 -->
 
-            </div>    
+            </div>
         </div>
         <span class="copyright col-md-12">Copyright &copy; @DateTime.Now.Year Coding By Chad</span>
     </div>
     @RenderSection("scripts", required: false)
-    
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

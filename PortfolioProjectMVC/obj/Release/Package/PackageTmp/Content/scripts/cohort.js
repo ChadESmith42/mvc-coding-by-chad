@@ -17,7 +17,7 @@
         {
             name: 'Kohlsen Burton',
             domain: 'KohlsenBurton.com',
-            image: 'http://www.codingbychad.com/Content/images/default_avatar.png',
+            image: 'http://www.codingbychad.com/Content/images/Kohlsen.jpg',
             link: 'http://www.kohlsenburton.com',
             linkedin: 'https://www.linkedin.com/in/kohlsenburton/'
         },

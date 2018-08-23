@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="row mt centered">
-        <div class="card col-md-3">
+        <div class="card col-md-4">
             <img class="img-thumbnail" src="~/Content/images/asYouWish.png" alt="Card image">
             <div class="card-body">
                 <h3 class="text-left">As You Wish Ipsum Generator</h3>
@@ -20,7 +20,7 @@
                 <a href="@Url.Action("AsYouWish","Home") " class="btn btn-primary">Learn more &raquo;</a>
             </div>
         </div>
-        <div class="card col-md-3">
+        <div class="card col-md-4">
             <img class="img-thumbnail" src="~/Content/images/resume_map.PNG" alt="Card image">
             <div class="card-body">
                 <h3 class="text-left">Story-Map Resume</h3>
@@ -28,7 +28,7 @@
                 <a href="http://codingbychad.com/SPA/" class="btn btn-primary">Learn more &raquo;</a>
             </div>
         </div>
-        <div class="card col-md-3">
+        <div class="card col-md-4">
             <img class="img-thumbnail" src="~/Content/images/TaskOrganizer.PNG" alt="Card image">
             <div class="card-body">
                 <h3 class="text-left">Task Organizer</h3>
@@ -36,7 +36,9 @@
                 <a href="@Url.Action("Index","Home") " class="btn btn-warning">Coming Soon!</a>
             </div>
         </div>
-        <div class="card col-md-3">
+        <!-- /row -->
+    <div class="row">
+        <div class="card col-md-4">
             <img class="img-thumbnail" src="~/Content/images/Snake.PNG" alt="Card image">
             <div class="card-body">
                 <h3 class="text-left">Snake Game</h3>
@@ -44,9 +46,20 @@
                 <a href="@Url.Action("Snake","Home") " class="btn btn-primary">Learn more &raquo;</a>
             </div>
         </div>
-    </div><!-- /row -->
-    <div class="row mt centered">
         <div class="col-md-4">
+            <img class="img-thumbnail" src="~/Content/images/dangerousbuildings.PNG" alt="Card image">
+            <div class="card-body">
+                <h3 class="text-left">Dangerous Buildings in Kansas City, MO</h3>
+                <p class="text-left">I built this mapviewer using HTML5, CSS3, and MapBox GL JavaScript library. The page references an Open Data Rest point for Dangerous Buildings in Kansas City, Missouri. The dataset is updated daily (according to data.kcmo.gov). I wanted to achieve three things with this project:</p>
+                    <ol class="text-left"> 
+                    <li>make a live map,</li>
+                    <li>use minimal technology (HTML/CSS/JS only),</li>
+                    <li>and provide a useful product using civic data.</li>
+                    </ol>
+                <p class="text-left">I will add more features to this project in the coming weeks.</p>
+                <a href="@Url.Content("http://codingbychad.com/dangerousbuildings/")" class="btn btn-primary">Learn more &raquo;</a>
+            </div>
+        </div>
 
         </div>
         <div class="col-md-4">
@@ -56,4 +69,5 @@
             
         </div>
     </div><!-- /row -->
+    <div class="clearfix"></div>
 </div><!-- /container -->

@@ -82,10 +82,26 @@ section {
     font-size: 1.1em;
 }
 
-.extra-space{
+.extra-space {
     margin-bottom: 30px;
 }
-.no-highlight a{
-    text-decoration:none;
+
+.no-highlight a {
+    text-decoration: none;
     color: black;
+}
+
+.spacer {
+    height: 50px;
+}
+
+.end-spacer {
+    height: 750px;
+}
+
+
+.popups {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    width: 150px;
 }

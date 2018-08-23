@@ -236,6 +236,7 @@
     <Content Include="Content\images\favicons\ms-icon-150x150.png" />
     <Content Include="Content\images\favicons\ms-icon-310x310.png" />
     <Content Include="Content\images\favicons\ms-icon-70x70.png" />
+    <Content Include="Content\images\jdp.png" />
     <Content Include="Content\images\Kohlsen.jpg" />
     <Content Include="Content\images\police.jpg" />
     <Content Include="Content\images\Snake.PNG" />
