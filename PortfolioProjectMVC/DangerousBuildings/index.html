@@ -27,8 +27,22 @@
         <p>
             Data source: (<i class="fa fa-external-link" aria-hidden="true"></i>) <a href="https://data.kcmo.org/Property/Dangerous-Buildings-List/ax3m-jhxx " target="_blank ">https://data.kcmo.org/Property/Dangerous-Buildings-List/ax3m-jhxx<a>
         </p>
+        <div id="ownersGrid" ng-app="parcelApp" ng-controller="ownerController">
+            <h2>Parcel Owner</h2>
+            <ul>
+                <li ng-repeat="owner in data">
+                    <span>
+                        <strong>Address: {{owner.address}}</strong><br />
+                        <span id="">{{owner.own.name}}</span>
+                    </span>
+                </li>
+            </ul>
+        </div><!--/#main-->
+
     </div>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
+    <!-- Link to AngularJS CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
     <script src="dangerousbuildings.js"></script>
 </body>
 </html>

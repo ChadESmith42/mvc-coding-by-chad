@@ -87,8 +87,6 @@ C:\Users\Student\Documents\Visual Studio 2015\Projects\PortfolioProjectMVC\src\P
 C:\Users\Student\Documents\Visual Studio 2015\Projects\PortfolioProjectMVC\src\PortfolioProjectMVC\bin\PortfolioProjectMVC.dll.config
 C:\Users\Student\Documents\Visual Studio 2015\Projects\PortfolioProjectMVC\src\PortfolioProjectMVC\bin\PortfolioProjectMVC.dll
 C:\Users\Student\Documents\Visual Studio 2015\Projects\PortfolioProjectMVC\src\PortfolioProjectMVC\bin\PortfolioProjectMVC.pdb
-C:\Users\Student\Documents\Visual Studio 2015\Projects\PortfolioProjectMVC\src\PortfolioProjectMVC\bin\PortfolioProjectMVC.dll.CodeAnalysisLog.xml
-C:\Users\Student\Documents\Visual Studio 2015\Projects\PortfolioProjectMVC\src\PortfolioProjectMVC\bin\PortfolioProjectMVC.dll.lastcodeanalysissucceeded
 C:\Users\Student\Documents\Visual Studio 2015\Projects\PortfolioProjectMVC\src\PortfolioProjectMVC\bin\Antlr3.Runtime.dll
 C:\Users\Student\Documents\Visual Studio 2015\Projects\PortfolioProjectMVC\src\PortfolioProjectMVC\bin\Common.Maps.dll
 C:\Users\Student\Documents\Visual Studio 2015\Projects\PortfolioProjectMVC\src\PortfolioProjectMVC\bin\Common.Net.REST.dll
@@ -147,3 +145,4 @@ C:\Users\Student\Documents\Visual Studio 2015\Projects\PortfolioProjectMVC\src\P
 C:\Users\Student\Documents\Visual Studio 2015\Projects\PortfolioProjectMVC\src\PortfolioProjectMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Student\Documents\Visual Studio 2015\Projects\PortfolioProjectMVC\src\PortfolioProjectMVC\obj\Debug\PortfolioProjectMVC.dll
 C:\Users\Student\Documents\Visual Studio 2015\Projects\PortfolioProjectMVC\src\PortfolioProjectMVC\obj\Debug\PortfolioProjectMVC.pdb
+C:\Users\Student\Documents\Visual Studio 2015\Projects\PortfolioProjectMVC\src\PortfolioProjectMVC\obj\Debug\PortfolioProjectMVC.csprojResolveAssemblyReference.cache
