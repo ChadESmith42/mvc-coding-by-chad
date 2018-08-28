@@ -294,3 +294,7 @@ bt {
     color: white;
     margin-top: -7px;
 }
+
+card-min-height {
+    min-height: 400px;
+}

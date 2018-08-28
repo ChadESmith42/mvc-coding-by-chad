@@ -211,6 +211,7 @@
     <Content Include="Content\images\Andrew.jpeg" />
     <Content Include="Content\images\chad_avatar.jpeg" />
     <Content Include="Content\images\dangerousbuildings.PNG" />
+    <Content Include="Content\images\David.png" />
     <Content Include="Content\images\favicons\android-icon-144x144.png" />
     <Content Include="Content\images\favicons\android-icon-192x192.png" />
     <Content Include="Content\images\favicons\android-icon-36x36.png" />
@@ -238,6 +239,7 @@
     <Content Include="Content\images\favicons\ms-icon-70x70.png" />
     <Content Include="Content\images\jdp.png" />
     <Content Include="Content\images\Kohlsen.jpg" />
+    <Content Include="Content\images\Liz.jpeg" />
     <Content Include="Content\images\police.jpg" />
     <Content Include="Content\images\Snake.PNG" />
     <Content Include="Content\images\resume_map.PNG" />

@@ -1,11 +1,11 @@
 ﻿$(document).ready(function(){
     var cohort = [
         {
-            name: 'Jason Brooks',
-            domain: 'JasonBrooks.com',
-            image: 'http://www.codingbychad.com/Content/images/default_avatar.png',
-            link: 'http://www.jasonbrooks.com',
-            linkedin: 'https://www.linkedin.com/in/jason-brooks-0b9323b5/'
+            name: 'David Schmitt',
+            domain: 'Schmittology.com',
+            image: 'http://www.codingbychad.com/Content/images/David.png',
+            link: 'http://www.schmittology.com',
+            linkedin: 'https://www.linkedin.com/in/david-schmitt-779063161/'
         },
         {
             name: 'Steven Brown',
@@ -40,7 +40,7 @@
         {
             name: 'Liz Nuckolls',
             domain: 'LizNuckolls.com',
-            image: 'http://www.codingbychad.com/Content/images/default_avatar.png',
+            image: 'http://www.codingbychad.com/Content/images/Liz.jpeg',
             link: 'http://liznuckolls.com',
             linkedin: 'https://www.linkedin.com/in/liz-nuckolls/'
         },
@@ -81,7 +81,7 @@
 
     for (var i in cohort) {
     
-        cohortCards += '<div class="col-md-4 card">' +
+        cohortCards += '<div class="col-md-4 card card-min-height">' +
                             '<img class="img-thumbnail" src="' + cohort[i].image +'" alt="Card image">' +
                                 '<h4>' + cohort[i].name + '</h4>' +
                                 '<p">' + cohort[i].domain + '</p>' +

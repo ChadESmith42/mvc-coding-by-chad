@@ -179,7 +179,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/20/2018 09:46:15</publishTime>
     </File>
     <File Include="Content/css/main.css">
-      <publishTime>08/07/2018 22:00:27</publishTime>
+      <publishTime>08/23/2018 15:16:24</publishTime>
     </File>
     <File Include="Content/css/map.css">
       <publishTime>06/18/2018 12:26:23</publishTime>
@@ -240,6 +240,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/dangerousbuildings.PNG">
       <publishTime>07/26/2018 21:31:36</publishTime>
+    </File>
+    <File Include="Content/images/David.png">
+      <publishTime>08/23/2018 14:52:33</publishTime>
     </File>
     <File Include="Content/images/default_avatar.png">
       <publishTime>07/02/2018 09:32:37</publishTime>
@@ -331,6 +334,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/Kohlsen.jpg">
       <publishTime>07/10/2018 08:28:23</publishTime>
     </File>
+    <File Include="Content/images/Liz.jpeg">
+      <publishTime>08/23/2018 14:49:55</publishTime>
+    </File>
     <File Include="Content/images/loader.gif">
       <publishTime>06/15/2018 22:10:48</publishTime>
     </File>
@@ -383,7 +389,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/15/2018 22:12:11</publishTime>
     </File>
     <File Include="Content/scripts/cohort.js">
-      <publishTime>07/12/2018 17:14:11</publishTime>
+      <publishTime>08/23/2018 15:11:35</publishTime>
     </File>
     <File Include="Content/scripts/crimeparse.js">
       <publishTime>06/25/2018 20:51:40</publishTime>
@@ -590,7 +596,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/30/2018 11:27:50</publishTime>
     </File>
     <File Include="Views/Home/Cohort.cshtml">
-      <publishTime>07/02/2018 11:41:28</publishTime>
+      <publishTime>08/23/2018 15:39:22</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
       <publishTime>07/27/2018 12:48:03</publishTime>
