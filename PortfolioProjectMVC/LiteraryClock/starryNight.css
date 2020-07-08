@@ -1,0 +1,11 @@
+/* Variables to change background image and matching font-colors. */
+
+:root {
+    --background-image: (url(/starryNight.jpg));
+    --background-color: #1f215e;
+    --font-size: 30px;
+    --title-color: #121526;
+    --quote-color: #e7daae;
+    /* Quote Background Color */
+    --quote-bg-color: rgba(39, 63, 156, 0.6);
+}

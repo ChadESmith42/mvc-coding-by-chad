@@ -298,3 +298,12 @@ bt {
 card-min-height {
     min-height: 400px;
 }
+
+.subtle__link,
+    .subtle__link:hover,
+    .subtle__link:active,
+    .subtle__link:visited{
+    color: #1ABC9C;
+    font-weight: bold;
+    text-decoration: none;
+}

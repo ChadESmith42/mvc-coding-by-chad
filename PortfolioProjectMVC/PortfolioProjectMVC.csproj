@@ -209,6 +209,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\images\Andrew.jpeg" />
+    <Content Include="Content\images\API_Project.PNG" />
     <Content Include="Content\images\chad_avatar.jpeg" />
     <Content Include="Content\images\dangerousbuildings.PNG" />
     <Content Include="Content\images\David.png" />
@@ -293,6 +294,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="literary.css" />
+    <Content Include="LiteraryClock\ancientDays.jpg" />
+    <Content Include="LiteraryClock\boulevardMonmarte.jpg" />
+    <Content Include="LiteraryClock\index.html" />
+    <Content Include="LiteraryClock\literary.css" />
+    <Content Include="LiteraryClock\literary.js" />
+    <Content Include="LiteraryClock\starryNight.css" />
+    <Content Include="LiteraryClock\starryNight.jpg" />
+    <Content Include="LiteraryClock\weepingWillow.jpeg" />
     <Content Include="mapexample.html" />
     <Content Include="popup.html" />
     <Content Include="Scripts\bootstrap.js" />

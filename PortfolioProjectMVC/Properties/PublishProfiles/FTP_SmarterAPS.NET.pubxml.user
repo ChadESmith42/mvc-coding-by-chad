@@ -179,7 +179,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/20/2018 09:46:15</publishTime>
     </File>
     <File Include="Content/css/main.css">
-      <publishTime>08/23/2018 15:16:24</publishTime>
+      <publishTime>10/16/2018 14:28:12</publishTime>
     </File>
     <File Include="Content/css/map.css">
       <publishTime>06/18/2018 12:26:23</publishTime>
@@ -463,6 +463,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="literary.html">
       <publishTime>08/06/2018 15:13:18</publishTime>
     </File>
+    <File Include="LiteraryClock/literary.css">
+      <publishTime>10/22/2018 11:24:53</publishTime>
+    </File>
     <File Include="mapexample.html">
       <publishTime>08/16/2018 14:36:40</publishTime>
     </File>
@@ -590,7 +593,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/15/2018 09:45:25</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>07/02/2018 13:11:59</publishTime>
+      <publishTime>09/12/2018 12:39:52</publishTime>
     </File>
     <File Include="Views/Home/AsYouWish.cshtml">
       <publishTime>06/30/2018 11:27:50</publishTime>
@@ -605,7 +608,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/20/2018 16:07:37</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>07/09/2018 12:59:47</publishTime>
+      <publishTime>09/12/2018 12:13:18</publishTime>
     </File>
     <File Include="Views/Home/Snake.cshtml">
       <publishTime>07/11/2018 08:43:31</publishTime>
@@ -614,7 +617,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/16/2018 13:21:00</publishTime>
     </File>
     <File Include="Views/Home/Work.cshtml">
-      <publishTime>08/23/2018 11:56:13</publishTime>
+      <publishTime>10/16/2018 14:26:19</publishTime>
     </File>
     <File Include="Views/Manage/AddPhoneNumber.cshtml">
       <publishTime>06/15/2018 09:45:25</publishTime>
